@@ -1,0 +1,29 @@
+<!-- Deposit Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> <!-- Load JavaScript -->
+</head>
+<body>
+
+    <!-- 🔙 Back to Home Button at Top Left -->
+    <button onclick="goToHome()" class="back-button">⬅ Home</button>
+
+    <h2 style="margin-top:5%;">Deposit Money</h2>
+    <form id="depositForm">
+        <label for="accountNumber">Account Number:</label>
+        <input type="number" id="accountNumber" required>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" required>
+        <button type="submit">Deposit</button>
+    </form>
+
+    <!-- Success Message Area -->
+    <div id="depositResponse"></div>
+
+</body>
+</html>

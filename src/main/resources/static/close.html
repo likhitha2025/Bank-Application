@@ -1,0 +1,27 @@
+<!-- Close Account Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Close Account</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> <!-- Load JavaScript -->
+</head>
+<body>
+
+    <!-- 🔙 Back to Home Button -->
+    <button onclick="goToHome()" class="back-button">⬅ Home</button>
+
+    <h2 style="margin-top:5%;">Close Account</h2>
+    <form onsubmit="event.preventDefault(); closeAccount();">
+        <label for="closeAccountNumber">Account Number:</label>
+        <input type="number" id="closeAccountNumber" required>
+        <button type="submit">Close Account</button>
+    </form>
+
+    <!-- Success/Error Message Area -->
+    <div id="closeResponse"></div>
+
+</body>
+</html>

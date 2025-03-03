@@ -1,0 +1,112 @@
+/* styles.css */
+
+
+/* ✅ Background Image Styling */
+body {
+    background-image: url("images/bank.jpg"); /* ✅ Set Background Image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Back Button Styling */
+.back-button {
+    position: absolute;  /* Fix position on screen */
+    top: 20px;  
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000080; /* 🔴 Change button color (Orange-Red) */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align:center;
+    width:10%;
+    
+}
+
+.back-button:hover {
+    background-color: #800040; /* 🟥 Darker shade on hover */
+}
+
+/* ✅ Centering Content */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* ✅ Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 128, 0.7); /* Transparent White */
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ✅ Centered Main Content */
+
+form {
+    background: white;
+    color:black;
+    padding: 30px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* ✅ Footer Styling */
+footer {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+}
+
+
